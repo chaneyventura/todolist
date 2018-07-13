@@ -1,0 +1,62 @@
+header{
+  text-align: center;
+  font-family: verdana;
+  margin-bottom: 20px;
+}
+
+body {
+  padding: 50px;
+  background: linear-gradient(to right, rgba(255,0,0,0), #ccccff);
+  font-family: verdana;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.ToDoListMaster .header .textbox {
+  height: 40px;
+  width: 300px;
+  font-size: 14px;
+  border: 2px solid #ccccff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+
+}
+
+.ToDoListMaster .header button {
+  margin-left: 20px;
+}
+
+.ToDoListMaster .List {
+  list-style: none;
+  width: 300px;
+  padding-left: 3px;
+}
+
+.ToDoListMaster .List li {
+  list-style: none;
+  color: #16044e;
+  background-color: rgba(58, 10, 199, 0.06);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 7px;
+
+  transition: background-color .2s ease-out;
+}
+
+.ToDoListMaster .List li:hover {
+  background: repeating-linear-gradient(
+    45deg,
+    #cbafba,
+    #cbafba 10px,
+    #d5bec8 10px,
+    #d5bec8 20px
+    );
+  cursor: pointer;
+}
+
+ul.List {
+  color: #16044e;
+}
